@@ -1,0 +1,25 @@
+{
+  "name": "exifer/exifer",
+  "description": "EXIF processing for PHP 5.3",
+  "keywords": [
+    "EXIF manipulation",
+    "EXIF processing"
+  ],
+  "homepage": "http://exifer.org/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Igor Golovanov",
+      "email": "igor.golovanov@gmail.com",
+      "homepage": "http://golovanov.tel"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.2"
+  },
+  "autoload": {
+    "psr-0": {
+      "Exifer": "lib/"
+    }
+  }
+}
