@@ -1,11 +1,9 @@
 {
   "name": "exifer/exifer",
   "description": "EXIF processing for PHP 5.3",
-  "keywords": [
-    "EXIF manipulation",
-    "EXIF processing"
-  ],
-  "homepage": "http://exifer.org/",
+  "type": "library",
+  "keywords": ["exif", "image", "audio"],
+  "homepage": "http://exifer.org",
   "license": "MIT",
   "authors": [
     {
