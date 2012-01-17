@@ -17,5 +17,13 @@ use Exifer\Common\Directory;
  */
 class ExifDirectory extends Directory
 {
-    
+    public function addTag(TagInterface $tag)
+    {
+        if(!$tag instanceof ExifTagInterface) {
+            throw new \InvalidArgumentException(sprintf(
+            'The tag "%s" must be implement Exifer\Exif\ExifTagInterface', 
+            $tag->getTagName()));
+        }
+        return parent::addTag($tag);
+    }
 }

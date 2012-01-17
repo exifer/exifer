@@ -10,10 +10,15 @@
 
 namespace Exifer\Jpeg;
 
+use Exifer\Common\Tag;
+
 /**
  * @author  Igor Golovanov <igor.golovanov@gmail.com>
  */
-abstract class JpegTag implements JpegTagInterface
+abstract class JpegTag extends Tag implements JpegTagInterface
 {
-    
+    /**
+     * {@inheritDoc} 
+     */
+    protected $name = 'JPEG Unknown Tag';        
 }

@@ -10,12 +10,12 @@
 
 namespace Exifer\Exif\Interop;
 
-use Exifer\Exif\ExifTagInterface;
+use Exifer\Common\TagInterface;
 
 /**
  * @author  Igor Golovanov <igor.golovanov@gmail.com>
  */
-interface InteropTagInteface extends ExifTagInterface
+interface InteropTagInteface extends TagInterface
 {
     
 }

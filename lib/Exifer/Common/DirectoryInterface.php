@@ -16,4 +16,10 @@ namespace Exifer\Common;
 interface DirectoryInterface extends \ArrayAccess, \IteratorAggregate
 {
     function getDirectoryName();
+    
+    function addTag(TagInterface $tag);
+    
+    function getTagCount();
+    
+    function getTagNameList();
 }

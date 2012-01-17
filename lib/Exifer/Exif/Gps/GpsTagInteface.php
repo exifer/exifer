@@ -10,12 +10,12 @@
 
 namespace Exifer\Exif\Gps;
 
-use Exifer\Exif\ExifTagInterface;
+use Exifer\Common\TagInterface;
 
 /**
  * @author  Igor Golovanov <igor.golovanov@gmail.com>
  */
-interface GpsTagInteface extends ExifTagInterface
+interface GpsTagInteface extends TagInterface
 {
     
 }

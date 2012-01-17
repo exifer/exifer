@@ -17,5 +17,13 @@ use Exifer\Common\Directory;
  */
 class IptcDirectory extends Directory
 {
-    
+    public function addTag(TagInterface $tag)
+    {
+        if(!$tag instanceof IptcTagInterface) {
+            throw new \InvalidArgumentException(sprintf(
+            'The tag "%s" must be implement Exifer\Iptc\IptcTagInterface', 
+            $tag->getTagName()));
+        }
+        return parent::addTag($tag);
+    }
 }

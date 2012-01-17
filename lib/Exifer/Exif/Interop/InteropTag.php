@@ -10,12 +10,12 @@
 
 namespace Exifer\Exif\Interop;
 
-use Exifer\Exif\ExifTag;
+use Exifer\Common\Tag;
 
 /**
  * @author  Igor Golovanov <igor.golovanov@gmail.com>
  */
-abstract class InteropTag extends ExifTag implements InteropTagInteface
+abstract class InteropTag extends Tag implements InteropTagInteface
 {
     /**
      * {@inheritDoc} 

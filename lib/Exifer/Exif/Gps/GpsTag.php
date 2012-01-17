@@ -10,12 +10,12 @@
 
 namespace Exifer\Exif\Gps;
 
-use Exifer\Exif\ExifTag;
+use Exifer\Common\Tag;
 
 /**
  * @author  Igor Golovanov <igor.golovanov@gmail.com>
  */
-abstract class GpsTag extends ExifTag implements GpsTagInteface
+abstract class GpsTag extends Tag implements GpsTagInteface
 {
     /**
      * {@inheritDoc} 

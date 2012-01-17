@@ -10,10 +10,15 @@
 
 namespace Exifer\Iptc;
 
+use Exifer\Common\Tag;
+
 /**
  * @author  Igor Golovanov <igor.golovanov@gmail.com>
  */
-abstract class IptcTag implements IptcTagInterface
+abstract class IptcTag extends Tag implements IptcTagInterface
 {
-    
+    /**
+     * {@inheritDoc} 
+     */
+    protected $name = 'IPTC Unknown Tag';    
 }
