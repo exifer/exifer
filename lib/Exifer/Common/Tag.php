@@ -22,7 +22,7 @@ abstract class Tag implements TagInterface
      * 
      * @var string 
      */
-    protected $name;
+    protected $name = 'Unknown Tag';
     
     public function getTagOffset()
     {
