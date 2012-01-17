@@ -15,8 +15,7 @@ use Exifer\Exif\Gps\GpsTag;
 /**
  * @author  Igor Golovanov <igor.golovanov@gmail.com>
  */
-class LongitudeReference extends GpsTag
+class Altitude extends GpsTag
 {
-    const OFFSET = 0x0003;
-    
+    const OFFSET = 0x0006;
 }

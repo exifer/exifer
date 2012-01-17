@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Exifer\Exif\Gps;
+namespace Exifer\Exif\Gps\Tags;
 
 use Exifer\Exif\Gps\GpsTag;
 
@@ -17,5 +17,6 @@ use Exifer\Exif\Gps\GpsTag;
  */
 class ImageDirectionReference extends GpsTag
 {
+    const OFFSET = 0x0010;
     
 }

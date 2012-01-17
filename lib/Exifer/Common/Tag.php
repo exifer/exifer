@@ -15,5 +15,10 @@ namespace Exifer\Common;
  */
 abstract class Tag implements TagInterface
 {
+    const OFFSET = null;
     
+    public function getTagOffset()
+    {
+        return static::OFFSET;
+    }
 }
