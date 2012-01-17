@@ -18,5 +18,9 @@ use Exifer\Exif\Gps\GpsTag;
 class SpeedReference extends GpsTag
 {
     const OFFSET = 0x000C;
-    
+            
+    /**
+     * {@inheritDoc} 
+     */
+    protected $name = 'GPS Speed Ref';
 }

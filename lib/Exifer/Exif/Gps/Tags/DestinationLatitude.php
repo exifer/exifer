@@ -19,4 +19,8 @@ class DestinationLatitude extends GpsTag
 {
     const OFFSET = 0x0014;
     
+    /**
+     * {@inheritDoc} 
+     */
+    protected $name = 'GPS Destination Latitude';
 }

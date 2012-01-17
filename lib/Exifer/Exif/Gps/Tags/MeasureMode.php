@@ -18,5 +18,9 @@ use Exifer\Exif\Gps\GpsTag;
 class MeasureMode extends GpsTag
 {
     const OFFSET = 0x000A;
-    
+            
+    /**
+     * {@inheritDoc} 
+     */
+    protected $name = 'GPS Measure Mode';
 }

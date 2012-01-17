@@ -18,5 +18,9 @@ use Exifer\Exif\Gps\GpsTag;
 class Track extends GpsTag
 {
     const OFFSET = 0x000F;
-    
+            
+    /**
+     * {@inheritDoc} 
+     */
+    protected $name = 'GPS Track';
 }

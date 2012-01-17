@@ -19,4 +19,8 @@ class DestinationBearing extends GpsTag
 {
     const OFFSET = 0x0018;
     
+    /**
+     * {@inheritDoc} 
+     */
+    protected $name = 'GPS Destination Bearing';
 }

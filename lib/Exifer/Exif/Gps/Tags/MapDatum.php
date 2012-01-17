@@ -18,5 +18,9 @@ use Exifer\Exif\Gps\GpsTag;
 class MapDatum extends GpsTag
 {
     const OFFSET = 0x0012;
-    
+            
+    /**
+     * {@inheritDoc} 
+     */
+    protected $name = 'GPS Map Datum';
 }

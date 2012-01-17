@@ -18,5 +18,9 @@ use Exifer\Exif\Gps\GpsTag;
 class ImageDirectionReference extends GpsTag
 {
     const OFFSET = 0x0010;
-    
+        
+    /**
+     * {@inheritDoc} 
+     */
+    protected $name = 'GPS Image Direction Ref';
 }

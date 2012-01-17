@@ -19,4 +19,8 @@ class DestinationDistance extends GpsTag
 {
     const OFFSET = 0x001A;
     
+    /**
+     * {@inheritDoc} 
+     */
+    protected $name = 'GPS Destination Distance';
 }

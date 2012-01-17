@@ -19,4 +19,8 @@ class Dop extends GpsTag
 {
     const OFFSET = 0x000B;
     
+    /**
+     * {@inheritDoc} 
+     */
+    protected $name = 'GPS DOP';
 }

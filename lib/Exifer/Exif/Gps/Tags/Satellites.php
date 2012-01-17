@@ -18,5 +18,9 @@ use Exifer\Exif\Gps\GpsTag;
 class Satellites extends GpsTag
 {
     const OFFSET = 0x0008;
-    
+            
+    /**
+     * {@inheritDoc} 
+     */
+    protected $name = 'GPS Satellites';
 }

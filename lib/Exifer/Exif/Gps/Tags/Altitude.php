@@ -18,4 +18,9 @@ use Exifer\Exif\Gps\GpsTag;
 class Altitude extends GpsTag
 {
     const OFFSET = 0x0006;
+    
+    /**
+     * {@inheritDoc} 
+     */
+    protected $name = 'GPS Altitude';
 }

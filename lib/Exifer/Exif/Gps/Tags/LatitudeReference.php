@@ -18,5 +18,9 @@ use Exifer\Exif\Gps\GpsTag;
 class LatitudeReference extends GpsTag
 {
     const OFFSET = 0x0001;
-    
+        
+    /**
+     * {@inheritDoc} 
+     */
+    protected $name = 'GPS Latitude Ref';
 }

@@ -18,5 +18,9 @@ use Exifer\Exif\Gps\GpsTag;
 class VersionId extends GpsTag
 {
     const OFFSET = 0x0000;
-    
+            
+    /**
+     * {@inheritDoc} 
+     */
+    protected $name = 'GPS Version ID';
 }

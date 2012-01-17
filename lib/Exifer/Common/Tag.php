@@ -17,8 +17,25 @@ abstract class Tag implements TagInterface
 {
     const OFFSET = null;
     
+    /**
+     * Tage name.
+     * 
+     * @var string 
+     */
+    protected $name;
+    
     public function getTagOffset()
     {
         return static::OFFSET;
+    }
+    
+    /**
+     * Name of tag.
+     * 
+     * @return string
+     */
+    public function getTagName()
+    {
+        return $this->name;
     }
 }

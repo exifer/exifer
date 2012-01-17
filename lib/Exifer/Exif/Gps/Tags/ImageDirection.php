@@ -19,4 +19,8 @@ class ImageDirection extends GpsTag
 {
     const OFFSET = 0x0011;
     
+    /**
+     * {@inheritDoc} 
+     */
+    protected $name = 'GPS Image Direction';
 }

@@ -18,5 +18,9 @@ use Exifer\Exif\Gps\GpsTag;
 class TimeStamp extends GpsTag
 {
     const OFFSET = 0x0007;
-    
+            
+    /**
+     * {@inheritDoc} 
+     */
+    protected $name = 'GPS Time-Stamp';
 }
