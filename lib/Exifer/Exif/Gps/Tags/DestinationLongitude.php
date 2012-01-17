@@ -17,6 +17,9 @@ use Exifer\Exif\Gps\GpsTag;
  */
 class DestinationLongitude extends GpsTag
 {
+    /**
+     * Offset. 
+     */
     const OFFSET = 0x0016;
     
     /**

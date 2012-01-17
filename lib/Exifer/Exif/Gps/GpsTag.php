@@ -17,5 +17,8 @@ use Exifer\Exif\ExifTag;
  */
 abstract class GpsTag extends ExifTag implements GpsTagInteface
 {
-    
+    /**
+     * {@inheritDoc} 
+     */
+    protected $name = 'GPS Unknown Tag';
 }

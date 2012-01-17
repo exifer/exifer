@@ -17,6 +17,9 @@ use Exifer\Exif\Gps\GpsTag;
  */
 class Track extends GpsTag
 {
+    /**
+     * Offset. 
+     */
     const OFFSET = 0x000F;
             
     /**

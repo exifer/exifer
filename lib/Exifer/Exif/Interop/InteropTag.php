@@ -17,5 +17,9 @@ use Exifer\Exif\ExifTag;
  */
 abstract class InteropTag extends ExifTag implements InteropTagInteface
 {
+    /**
+     * {@inheritDoc} 
+     */
+    protected $name = 'Interop Unknown Tag';
     
 }

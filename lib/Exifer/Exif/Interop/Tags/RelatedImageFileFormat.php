@@ -1,18 +1,29 @@
 <?php
-
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * This file is part of the Exifer package.
+ *
+ * (c) Igor Golovanov <igor.golovanov@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
+
+namespace Exifer\Exif\Interop\Tags;
+
+use Exifer\Exif\Interop\InteropTag;
 
 /**
- * Description of RelatedImageFileFormat
- *
- * @author igorgolovanov
+ * @author  Igor Golovanov <igor.golovanov@gmail.com>
  */
-class RelatedImageFileFormat
+class RelatedImageFileFormat extends InteropTag
 {
-    //put your code here
+    /**
+     * Offset. 
+     */
+    const OFFSET = 0x1000;
+    
+    /**
+     * {@inheritDoc} 
+     */
+    protected $name = 'Related Image File Format';
 }
-
-?>

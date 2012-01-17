@@ -17,6 +17,9 @@ use Exifer\Exif\Gps\GpsTag;
  */
 class Status extends GpsTag
 {
+    /**
+     * Offset. 
+     */
     const OFFSET = 0x0009;
             
     /**
